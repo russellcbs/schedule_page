@@ -1,6 +1,6 @@
 // Scroll to target section (table)
 document.getElementById("scroll-to-table").addEventListener("click", function() {
-    console.log("Button clicked");  // 这条消息应该会出现在Console中
+    console.log("Button clicked");
     document.getElementById("schedule_table").scrollIntoView({ behavior: "smooth" });
 });
 
